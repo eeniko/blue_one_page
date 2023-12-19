@@ -233,6 +233,11 @@ input {
   top: -85px;
   -webkit-box-reflect: below 3px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(94%, transparent), to(rgba(250, 250, 250, 0.3)));
 }
+@media screen and (max-width: 600px) {
+  #cards {
+    -webkit-box-reflect: unset;
+  }
+}
 
 .cardbtn {
   height: 35px;
