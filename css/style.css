@@ -1,0 +1,310 @@
+@import url("https://fonts.googleapis.com/css2?family=Cambo&family=Open+Sans:wght@300&family=Yellowtail&display=swap");
+p {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+a,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  border: none;
+  outline: none;
+  background: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.maincontainer {
+  display: block;
+  max-width: 1500px;
+  background-color: #cdcdcd;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+:root {
+  --card-text: #222222;
+  --line-color: #d8d8d8;
+  --gray-box: #adadad;
+  --card-color: #f4f4f4;
+  --btn-blue: #26678b;
+  --btn-light-blue: #5697bb;
+}
+
+.box {
+  max-width: 950px !important;
+  margin-left: auto;
+  margin-right: auto;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+#smart {
+  margin-top: 40px;
+  font-size: 4.4em;
+  font-family: "Cambo", serif;
+  color: rgb(255, 255, 255);
+  line-height: 0.5;
+  text-align: left;
+  float: left;
+}
+
+#insprie {
+  font-size: 1.6em;
+  font-family: "Arial";
+  color: rgba(235, 235, 235, 0.4);
+  line-height: 2;
+  float: left;
+}
+
+input::-moz-placeholder {
+  font-size: 11px;
+  font-family: "Arial";
+  color: rgb(107, 107, 107);
+  line-height: 2.182;
+}
+
+input::placeholder {
+  font-size: 11px;
+  font-family: "Arial";
+  color: rgb(107, 107, 107);
+  line-height: 2.182;
+}
+
+input {
+  background-color: #1c1c1c;
+  color: white;
+  border-color: rgb(107, 107, 107);
+  padding-left: 1.1rem;
+  height: 3rem;
+  width: 25.5rem;
+}
+
+#gobutton {
+  width: 50px;
+  height: 30px;
+  background-color: #3e3e3e;
+  border: none;
+  border-radius: 10px;
+  float: right;
+  margin-left: 5px;
+}
+#gobutton span {
+  color: white;
+  font-family: arial;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.header {
+  background-color: #1c1c1c;
+  left: 0px;
+  top: 0px;
+  padding-top: 5rem;
+  width: 100%;
+  height: 190px;
+}
+
+.jumbotron {
+  padding-top: 230px;
+  max-width: 1500px;
+  min-height: 590px;
+  background-image: url("../images/bgimage.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#individual {
+  font-size: 6em;
+  margin-right: 120px;
+  float: right;
+  font-family: "Cambo", serif;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding-left: 45px;
+  padding-right: 45px;
+  text-shadow: 0.5px 0.866px 0px rgba(90, 185, 218, 0.2);
+  opacity: 0.831;
+  max-width: 510px;
+  min-height: 100px;
+  background-color: black;
+}
+
+#customer {
+  font-size: 4em;
+  margin-right: 240px;
+  float: right;
+  font-family: "Cambo";
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: #04203e;
+  opacity: 0.831;
+  max-width: 350px;
+  min-height: 70px;
+}
+
+.card {
+  min-height: 330px;
+  background-color: var(--card-color) !important;
+  align-items: center;
+  padding-bottom: 5px;
+  border-color: var(--card-color);
+}
+
+.left {
+  border-radius: 0 20px 0 20px !important;
+}
+
+.right {
+  border-radius: 20px 0 20px 0 !important;
+}
+
+.cardTitle {
+  margin-top: 50px;
+  font-size: 60px;
+  font-family: "Tahoma" !important;
+  color: var(--card-text);
+  line-height: 0.8;
+  font-weight: bold;
+  text-align: center;
+}
+
+.italic {
+  margin-top: 25px;
+  font-size: 30px;
+  font-family: "Yellowtail";
+  color: var(--card-text);
+  line-height: 0.8;
+  text-align: center;
+}
+
+.italic:hover {
+  color: white;
+}
+
+.details {
+  margin-top: 25px;
+  margin-bottom: 20px;
+  font-size: 1.4em;
+  font-family: "Arial";
+  text-align: center;
+  color: #cacaca;
+  margin-left: 1.4em;
+  margin-right: 1.4em;
+}
+.details .blue {
+  color: #529dc3;
+}
+
+.card:hover {
+  background-color: #363636 !important;
+}
+.card:hover .cardbtn {
+  background-image: linear-gradient(#f6f6f6, #c8c8c8);
+  color: black;
+}
+.card:hover .cardTitle {
+  color: white;
+}
+.card:hover .italic {
+  color: white;
+}
+
+#cards {
+  position: relative;
+  top: -85px;
+  -webkit-box-reflect: below 3px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(94%, transparent), to(rgba(250, 250, 250, 0.3)));
+}
+
+.cardbtn {
+  height: 35px;
+  width: 102px;
+  border-radius: 16px;
+  background-image: linear-gradient(var(--btn-light-blue), var(--btn-blue));
+  font-size: 20px;
+  font-family: "Cambo";
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  text-align: center;
+}
+
+#bgbottom {
+  background-image: linear-gradient(#313131, #242424);
+  position: static;
+  bottom: 0;
+  left: 0px;
+  width: 100%;
+  min-height: 190px;
+}
+
+#graybox {
+  display: flex;
+  background-color: var(--gray-box);
+  min-height: 144px;
+  width: 100%;
+  position: relative;
+  top: -40px;
+  border-radius: 16px;
+  color: white;
+  font-size: 22px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  color: rgb(255, 255, 255);
+  line-height: 1.364;
+  text-align: left;
+  text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.05);
+  padding-left: 20%;
+  padding-top: 35px;
+  padding-right: auto;
+  padding-bottom: 35px;
+  background-image: linear-gradient(#b8b8b8, #a6a6a6);
+}
+
+#icons {
+  margin-bottom: 42px;
+  margin-top: 10px;
+  padding-right: 0px;
+}
+#icons a {
+  width: 32px;
+  margin-right: 10px;
+}
+
+@media (max-width: 900px) {
+  #individual {
+    font-size: 5em;
+    margin-right: 40px;
+    vertical-align: middle;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .jumbotron {
+    padding-top: 100px;
+  }
+  #customer {
+    font-size: 4em;
+    margin-right: 60px;
+    min-height: 70px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+}/*# sourceMappingURL=style.css.map */
